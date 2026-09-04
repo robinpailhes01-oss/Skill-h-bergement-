@@ -35,6 +35,29 @@
 29. [R] Aucune interruption (pop-up, One Tap, bannière).
 30. [S] Faire ressentir une journée.
 
+### Principes additionnels (série 2 du benchmark)
+31. [S] La couleur comme structure narrative (3–5 fonds pleins, contrastes vérifiés).
+32. [S] La typographie à l'échelle du lieu (display 80–256 px desktop, −60 % mobile ; trois voix à rôles).
+33. [R] Texte qui se remplit ou se révèle au scroll : ≤ 2 par page, jamais informatif, reduced motion.
+34. [S] Une seule séquence épinglée par page (horizontale, sticky + rideau), avec « passer » et version mobile empilée.
+35. [I] Le manifeste est un produit nommé, répété, suivi d'une offre concrète.
+36. [I] Transparence tarifaire : prix « from », grilles comparatives, prix barrés/par nuit, calendrier de prix.
+37. [I] « Comment ça marche » pour toute offre complexe (étapes, acompte, assurance, préparation).
+38. [R] Formulaire de demande qualifiant (cartes cliquables, budget si ticket élevé, pré-remplissage) avec humain nommé et délai.
+39. [R] Multi-entités : invariants (header, cartes, sous-nav) + marqueurs (couleur, logo, fil d'Ariane, JSON-LD) + sélecteur de lieu.
+40. [S] Modèle curateur : la marque raconte et affiche le prix, le partenaire vend ; page shoppable ; un moteur cohérent.
+
+## A bis. Contrôles spécifiques série 2
+
+- [ ] Aucune date, devise ou nombre de nuits codés en dur dans les liens vers le moteur.
+- [ ] Le « Book » d'une home de collection ouvre un sélecteur de lieu ; « Book » navigue toujours ; « Contact » ne renvoie jamais à la home.
+- [ ] Un seul moteur par marque, thématisé ; pas de moteur différent par maison.
+- [ ] Budget vidéo ≤ 10 Mo par page toutes sources ; une source par device ; jamais `preload="auto"` sur plusieurs vidéos ; poster présent.
+- [ ] Aucun pop-in marketing (Sleeknote, promo) ni chat proactif ; bannière cookies fermable.
+- [ ] Display réduit d'au moins 60 % sur mobile ; barre CTA basse conservée ; séquence épinglée empilée.
+- [ ] Prix visible avant le moteur (« from », cartes, grille) ; « comment ça marche » accessible depuis toute page d'offre complexe.
+- [ ] Preuve sociale signée (prénom, type de séjour, date) et non seulement des logos.
+
 ## B. Erreurs qui font bas de gamme (contrôle négatif)
 
 - [ ] Aucune photo de banque, HDR, grand-angle déformant, mannequin posé.

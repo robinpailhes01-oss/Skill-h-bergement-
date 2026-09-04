@@ -12,6 +12,23 @@
 | The Seagate | Coquillages en nature morte comme icônes de catégories ; chambres lumineuses (tête de lit à motifs bleus, lampes allumées) ; plats en gros plan ; scène de mariage sur la plage ; femme en peignoir face à la mer ; surfeurs au coucher du soleil | Crème, bleu, sable ; lumière de jour ; saturation modérée | Présente dans les expériences (mariage, spa, plage) | ≈ 60 / 40 | Hero vidéo desktop + mobile (≈ 14 / 10 Mo) + 2 vidéos secondaires |
 | Le Collectionist | Chalets en extérieur (neige, bois), salles à manger avec vue, villa vue aérienne avec piscine, mosaïque de 9 à 12 photos par propriété ; portraits de conseillers ; images d'inspiration verticales (cavalier dans le désert, ski, voile) | Jour, saturation naturelle, cohérence limitée (multiples photographes) | Dans l'inspiration et les conseillers ; peu dans les villas | ≈ 70 / 30 | Vidéo hero courte 4,3 Mo |
 
+### Série 2
+
+| Site | Types de plans dominants | Lumière / couleurs | Présence humaine | Vidéo |
+|---|---|---|---|---|
+| Hotel Odisej | aérien de la baie, forêt, intérieurs balcon, coins arrondis ; photos d'un autre hôtel du groupe réutilisées (à éviter) | jour, palette accordée aux fonds olive/bleu | ≈ 3 images | aucune |
+| Mas Girbau | drone à l'heure dorée, matières en vidéos portrait (682×900), tables dressées dehors, salles voûtées | dorée dominante, crème/vert | 1 personne de dos ; 0 groupe | hero MP4 22 Mo + WebM 18 Mo ; 7 vidéos |
+| Our Habitas | groupes autour du feu, tablées, rituels, drone, rendus 3D des projets | golden hour, chaud | ≈ 60 % des images | Vimeo hero sans poster (bloqué en headless) |
+| Aethos | drone (3 Mo), gens en action (vélo, yacht), t-shirt manifeste, arche clip-path | papier, contrastes doux | fréquente, jeune, en mouvement | Vimeo hero sans poster |
+| White Desert | glace, camps de nuit, dôme, intérieurs de pod, cartes, coordonnées en overlay | bleu / blanc / orange d'action | guides, invités en tenue polaire | Cloudflare Stream 4–8 Mo, aussi en mobile ; vidéo inline camp 5,3 Mo |
+| Explora Journeys | navires, suites par catégorie, ports, plats | sable / navy | modérée | 4 vidéos home (4–15 Mo), suites 82 + 31 Mo |
+| Experimental Group | intérieurs colorés, bars, plages, vidéos par lieu | variée, couleur par niveau | forte (bars, plages) | webm + mp4 chargés ensemble, poster vide |
+| Soneva | instants (enfants en contre-jour, sous-marin), villas, hôtes nommés, posters 245–688 Ko | linen / blue hour / golden ember | forte et nommée | Gumlet HLS 1600×900 ×4 |
+| Vipp Guesthouses | architecture à l'heure bleue, cuisines, coordonnées GPS, archives 1939 | sombre / sable | 0 sur la liste et Tunnel (hors architecte) ; 4 scènes sur Farmhouse | 10–13 vidéos `preload="auto"` par page (200 Mo) |
+| Pelorus Travel | paysages extrêmes, yachts, enfants (campagne), employés en vidéo | saturation naturelle | forte dans les campagnes | 21–61 Mo par page, servies en mobile |
+
+Enseignements série 2 : les scènes de communauté (Habitas, Aethos, Soneva) et les personnes nommées (Soneva, Pelorus, White Desert) font passer d'un catalogue à une expérience ; le langage cartographique (coordonnées, cartes, heures) est une photographie de la logistique ; le poids vidéo est le défaut universel (65–440 Mo).
+
 Enseignements : (1) le lieu vend, mais la présence humaine crédible (mains, silhouettes, gestes) fait passer de « catalogue » à « expérience » ; (2) un traitement colorimétrique homogène compte plus que la qualité individuelle des images ; (3) les vidéos hero sont systématiquement trop lourdes ; (4) les icônes photographiques (coquillages Seagate, nature morte FORESTIS) remplacent avantageusement des pictogrammes.
 
 ## 1. Règles photographiques
@@ -53,6 +70,7 @@ Enseignements : (1) le lieu vend, mais la présence humaine crédible (mains, si
 | Vidéo d'introduction bloquante | À éviter | si la marque l'impose (Borgo) : ≤ 8 s, « Passer » visible dès la première seconde, une fois par session |
 | Contenus verticaux | Recommandé | réutiliser les 9:16 pour les réseaux ; cohérence de traitement |
 | Drone | Recommandé (montagne, villa, resort) | 2 à 3 plans max, lents, à l'heure dorée ; jamais tout le hero en drone |
+| Budget par page | Indispensable | ≤ 10 Mo de vidéo toutes sources ; une source par device (jamais webm + mp4 chargés ensemble, jamais master + mobile) ; `preload="none"` ou `metadata` ; un seul autoplay ; la série 2 va de 65 à 440 Mo par page : c'est le premier chantier de performance |
 
 ## 4. Shot list type pour un nouveau projet
 

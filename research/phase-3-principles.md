@@ -99,3 +99,32 @@ Extraite des audits (Phase 1) et de la comparaison (Phase 2). Niveaux : **[I]** 
 ## 15. Règles de conversion
 
 [I] Mode de conversion défini (transactionnel / conversationnel / hybride) · [I] Un CTA plein par écran ; hiérarchie verbe/action · [I] Prix avant le moteur · [I] Preuve près du CTA ; bénéfices directs ≤ 3 · [I] Humain nommé + délai de réponse · [I] Moteur à la charte, pré-rempli, retour possible · [I] Alternatives sur chaque page produit · [I] Formulaires 4–6 champs, confirmation · [I] Mesure des clics par emplacement · [R] Offres datées avec code · [R] Upsell contextuel · [Interdit] Pop-ups, compte à rebours, « Sold Out » par défaut, captcha visible.
+
+---
+
+# Complément série 2 — principes additionnels (dix références « au-delà du quiet luxury »)
+
+Sources : fiches 06 à 15. Sites cités : Odisej (O), Mas Girbau (MG), Our Habitas (H), Aethos (A), White Desert (WD), Explora (E), Experimental (X), Soneva (SO), Vipp (V), Pelorus (P).
+
+## 16. Dix principes supplémentaires
+
+31. **[S] La couleur comme structure narrative.** Alterner 3 à 5 fonds pleins issus du paysage ou de la matière (O : crème, olive, bleu nuit ; MG : crème, vert profond, sauge, noir ; X : une couleur par niveau d'entité). Pourquoi : la page se lit sans texte, le rythme devient visible. Contexte : hôtels de destination, maisons à récit, groupes. Risque : contrastes insuffisants (O : 1,1–1,5 avant révélation), monotonie inverse si toutes les sections sont saturées.
+32. **[S] La typographie prend l'échelle du lieu.** Display 80–256 px pour un mot-territoire (WD : « ANTARCTICA » 256 px ; O : statements 80 px ; A : capitales serif 120 px) et trois voix typographiques à rôles distincts (WD : donnée / émotion / information). Risque : mobile illisible si l'échelle n'est pas réduite de 60 % ; poids des polices.
+33. **[R] Le texte qui se remplit au scroll cadence la lecture.** Statements de 80 px avec remplissage progressif (O) ou paragraphes scrubbés mot à mot en section épinglée (MG). Fonction : rythme et émotion. Limite : une ou deux occurrences par page, jamais pour du texte informatif, reduced motion obligatoire.
+34. **[S] Une séquence épinglée unique raconte la logistique ou le lieu.** Séquence horizontale camps → presse → carte animée (WD, ≈ 10 000 px), section environnement épinglée avec rideau vers une image (MG), story épinglée (H). Fonction : expliquer et donner du rythme. Risque : perte de repères ; prévoir indicateur de progression et « passer » ; empiler sur mobile ou réduire l'amplitude.
+35. **[I] Le manifeste est un produit.** Piliers (H), règles (A), manifesto (X), posture (V), signature de clôture (SO) : le manifeste est nommé, répété dans le menu, sur les objets, en fin de page. Risque : manifeste sans offre concrète derrière (H : 0 chambre sur la home).
+36. **[I] La transparence tarifaire est un argument de luxe.** Cartes « saison • prix par personne » (P), grilles filtrables avec variantes côte à côte (WD), prix barrés et par nuit (E), « From … per night » avant le bouton (V), calendrier de prix dans le moteur (X). Risque : perte de confiance quand le prix n'apparaît qu'au paiement (10 sites sur 15).
+37. **[I] « Comment ça marche » est une page indispensable pour toute offre complexe.** Étapes numérotées (WD : 6 ; P : 6 étapes + 7 raisons), acompte, assurance, préparation, délais ; accessible depuis toutes les pages (onglet fixe chez WD). Contexte : expéditions, sur mesure, croisières, retraites, villas. Risque : formulaire de demande sans méthode visible.
+38. **[R] Le formulaire de demande qualifie sans effrayer.** Cartes cliquables (saison, mois, intérêts) puis coordonnées (WD) ; budget obligatoire quand le ticket d'entrée est élevé (P, Le Collectionist) ; pré-remplissage depuis l'itinéraire (`?itinerary=`). Toujours avec humain nommé et délai (manque chez P).
+39. **[R] L'entité multiple exige des invariants et des marqueurs.** Header commun, cartes normalisées, sous-navigation d'entité, couleur ou logotype par entité, fil d'Ariane, JSON-LD typé (X, SO) ; sélecteur de lieu avant tout moteur (H). Risque : one-pages d'entité de 25 000 px avec chapitres vides (X), pages de marque sans chemin vers la chambre (H, A).
+40. **[S] Le modèle curateur et la page shoppable.** Une marque non hôtelière raconte, signe (architecte, chiffres, coordonnées) et affiche le prix, le partenaire vend la nuit (V) ; les objets du décor sont liés à la boutique ; boucle boutique ↔ séjour. Contexte : marques de design, vin, mode, architectes, chefs. Risque : moteurs hétérogènes par maison, absence de CTA sur la liste.
+
+## 17. Compléments aux listes de règles
+
+- **Menu (§7)** : pour un groupe, trois audiences (voyageurs, propriétaires, agents) ne partagent pas le même menu principal ; un mega-menu de destinations doit proposer trois portes (lieu, type, profil) comme P ; le « Book » d'une home de collection ouvre un sélecteur de lieu, jamais un moteur générique.
+- **Copywriting (§8)** : rareté chiffrée (« fewer than 500 », « six suites », « 12 guests »), langage cartographique (coordonnées, heures, distances), note de franchise (météo, contraintes), moule de titre « impératif + lieu + italique » (X), possessif de communauté « Our » (H), signature de clôture identique sur toutes les pages (SO).
+- **Photo / vidéo (§9–10)** : scènes de communauté à 60 % pour une marque-communauté (H) ; heure bleue et coordonnées GPS pour l'architecture (V, WD) ; le film scindé lieu | produit (V). Interdit : servir la vidéo desktop de 20–60 Mo au mobile (P, MG, V) ; `preload="auto"` sur 10 vidéos (V) ; un master de 82 Mo rechargé (E).
+- **Animation (§11)** : GSAP ScrollTrigger et split-text autorisés au niveau signature avec trois limites : ≤ 1 section épinglée par page, ≤ 80 éléments animés simultanés, reduced motion effectif (0 site sur 15 ne l'a).
+- **Responsive (§12)** : conserver la barre CTA basse (MG 64 px, X 65 px) ; réduire le display de 60 % (WD 256 → 80 px) ; supprimer chat proactif, pop-ins et bannières empilées (WD, V, P).
+- **Performance (§13)** : budget vidéo par page ≤ 10 Mo toutes sources ; une seule source par device ; posters ; pas de `preload="auto"` ; images ≤ 400 Ko avec srcset (0 srcset sur 8 sites de la série 2).
+- **Conversion (§15)** : ne jamais coder de dates ou de devises dans les liens moteur (O, H) ; un moteur par marque, pas par maison (V) ; « Book » doit naviguer (SO) ; « Contact » ne renvoie pas à la home (E) ; le club ou l'adhésion est une conversion à part entière avec ses tarifs publics (A).

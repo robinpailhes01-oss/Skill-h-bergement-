@@ -1,6 +1,6 @@
-# Benchmark — cinq sites d'hébergement premium analysés
+# Benchmark — quinze sites d'hébergement et de voyage premium analysés
 
-> Synthèse des audits réalisés le **2026-09-04** (Chromium headless 1440×900 et 390×844 via Playwright, captures desktop/mobile, sous-pages, flux d'interaction, moteurs ouverts sans validation). Les fiches complètes (14 rubriques, notes justifiées) sont dans `research/phase-1-audits/` du dépôt ; la matrice comparative dans `research/phase-2-comparative.md`. Ce fichier retient, pour chaque site, les faits utiles, l'interprétation et les enseignements réutilisables. Ne jamais copier les identités décrites : elles servent à comprendre des mécanismes.
+> Synthèse des audits réalisés le **2026-09-04** (série 1 : cinq hôtels et une collection « quiet luxury » ; série 2 : dix références choisies pour diversifier les mécanismes : couleur, animation GSAP, communauté, groupes, expédition, croisière, slow luxury, marque de design, voyage sur mesure) (Chromium headless 1440×900 et 390×844 via Playwright, captures desktop/mobile, sous-pages, flux d'interaction, moteurs ouverts sans validation). Les fiches complètes (14 rubriques, notes justifiées) sont dans `research/phase-1-audits/` du dépôt ; la matrice comparative dans `research/phase-2-comparative.md`. Ce fichier retient, pour chaque site, les faits utiles, l'interprétation et les enseignements réutilisables. Ne jamais copier les identités décrites : elles servent à comprendre des mécanismes.
 
 Limites communes : lecture des vidéos autoplay non vérifiable en headless (attributs seuls) ; transitions de page non testées ; Lighthouse non disponible (mesures Performance API et réseau seulement) ; moteur Marriott inaccessible aux automates ; Borgo Egnazia protégé par un anti-bot (certaines pages capturées uniquement en mobile).
 
@@ -134,3 +134,90 @@ Lecture : les hôtels dominent en branding et direction artistique, la plateform
 | Fiche produit complète + conseiller + similaires | L | Interruptions (préloader, bannières, One Tap) | B, L |
 | Collections / catégories nommées par sensation | L, S | Capitales et textes < 13 px sur mobile | C, B, L |
 | Barre contact mobile / barre prix + CTA | F, L | H1 absents ou multiples, JSON-LD pauvre | F, C, B, S |
+
+
+---
+
+# Série 2 — dix références « au-delà du quiet luxury »
+
+## Notes attribuées (fiches 06 à 15)
+
+| Site | Modèle | Branding | DA | Animations | UX | Conversion | Mobile | Globale |
+|---|---|---|---|---|---|---|---|---|
+| Hotel Odisej (Mljet) | hôtel d'île | 7 | 8 | 7 | 6 | 3 | 6 | **6,5** |
+| Mas Girbau | maison rurale entière | 8 | 8,5 | 8 | 6,5 | 5,5 | 7 | **7,3** |
+| Our Habitas | collection-communauté | 8 | 7 | 5 | 6 | 4,5 | 5,5 | **6,0** |
+| Aethos | collection + club + retraites | 9 | 8 | 7 | 6 | 5 | 7 | **7,0** |
+| White Desert | expéditions | 9 | 8,5 | 8 | 7 | 8 | 6,5 | **8,0** |
+| Explora Journeys | croisières | 7,5 | 7,5 | 5 | 7 | 7,5 | 6,5 | **7,0** |
+| Experimental Group | groupe multi-lieux | 9 | 8 | 6 | 7 | 6,5 | 6 | **7,3** |
+| Soneva | resorts slow luxury | 8,5 | 8 | 6,5 | 7 | 6,5 | 6,5 | **7,5** |
+| Vipp Guesthouses | marque de design qui héberge | 9 | 8 | 4 | 6 | 5 | 6,5 | **7,0** |
+| Pelorus Travel | voyage sur mesure | 8 | 7 | 5 | 6 | 6 | 5 | **6,5** |
+
+Lecture : la série 2 est plus forte en animations (Mas Girbau 8, White Desert 8, Odisej 7, Aethos 7) et en conversion pour les offres datées (White Desert 8, Explora 7,5) ; elle est plus lourde (65 à 440 Mo par page) et aussi faible en accessibilité que la série 1.
+
+## 6. Hotel Odisej — https://hotelodisej.com/
+**Faits** : palette tri-tonale du paysage (#f7f7ee crème, #5b6647 olive, #03364f bleu nuit, liaison #e3e3c4) tenue sur 6 pages ; PP Woodland 80/88 px (−2,4 px) + DM Sans ; home 14 967 px en 7 chapitres à fonds pleins séparés par des vagues SVG bicolores ; statements de 80 px à remplissage progressif au scroll (deux copies superposées de chaque phrase) ; 67 reveals, 4 parallaxes, 6–22 transforms par palier, sans bibliothèque d'animation ; header 90 px transparent → crème ; pills « Book now » (109×36 olive) et « Online Check-in » (contour) ; chambres en accordéon numéroté 01–05 sur page unique (12 296 px), tags « Sea view / Balcony / Park view », 0 prix, 0 m² ; destination Mljet traitée comme premier produit (citation Time) ; réservation book-secure en nouvel onglet avec dates codées `arrival=2023-04-25` ; 0 avis ; home 84 requêtes / 5,9 Mo, FCP 3,1 s ; 0 H1, 0 hreflang malgré /hr/.
+**Interprétation** : la couleur pleine et les phrases géantes portent le récit ; la vente est déléguée à un moteur de groupe non entretenu.
+**Enseignements** : chapitrage chromatique, text-fill comme cadence, accordéon-sommaire numéroté, destination avant hôtel. **À ne pas copier** : PP Woodland, le trio crème/olive/bleu nuit, les vagues.
+
+## 7. Mas Girbau — https://www.masgirbau.com/
+**Faits** : one-page Webflow de 16 843 px, 13 sections-chapitres (prologue, essence, pierre / feu / bois, services 01–05, entorno, activités) ; GSAP 3.10.4 + ScrollTrigger (24 triggers) + split-type (439 nœuds) + ukiyo (parallaxe) + Swiper/Flickity ; H1 80 px Editor's Note révélé caractère par caractère ; palette #fff8eb / #252b15 / #242c04 / #121602 / #e1e7dd / corail #ff906d (CTA pilule 129×63) ; section « Entorno » épinglée 2 045 px avec 77–85 transforms simultanés puis rideau vers une photo de rivière épinglée ; unité vendue = maison entière (14 personnes, 6 chambres, 10 lits, 30 ha) avec tableau de distribution des lits et 12 inclusions ; 0 prix, onglets saison cachés ; réservation par iframe BookingMood (« Send booking Request » en anglais) ; CTA fixe corail desktop, barre mobile 390×64 ; poids 104,5 Mo (vidéo MP4 22,3 Mo + WebM 18,2 Mo, galerie 56,5 Mo) ; 81 sans focus, 119/121 alt vides, 9 H1.
+**Interprétation** : la référence d'animation narrative maîtrisée du panel ; le récit vend la maison mieux que la fiche, mais la vente (prix, conditions, moteur) n'est pas au niveau.
+**Enseignements** : rythme chromatique par chapitres, texte scrubbé en section épinglée + rideau, numérotation 01/–06/, CTA persistant sur les deux supports. **À ne pas copier** : Editor's Note, corail #ff906d, arches SVG, monogramme G.
+
+## 8. Our Habitas — https://www.ourhabitas.com/
+**Faits** : home = page de marque (7 758 px, 769 mots, 0 chambre, 0 prix, 0 H1) : hero Vimeo 90 vh sans texte ni poster, manifeste « Luxury for the Soul » + six piliers, cartes de lieux nommés par phrase-monde (« Our Home of Play »), itinéraire Mexique, stories, Rise, durabilité, footer par région ; Canela + Arboria + acumin ; header 52 px blur + nav secondaire de 8 entrées par hôtel + tiroir « Select Property » (9 lieux) ; story épinglée 682×700 sur ≈ 2 000 px ; hover 1,05 / 0,6 s ; Barba chargé ; réservation SynXis par hôtel avec devises imposées et dates codées 2023–2024, `nights=4` ; Rooms Bacalar : 3 catégories « Sleeps 2 | King Bed », 12 images Swiper, 145 mots ; Dis-loyalty 35/20/10 % ; 60 % de scènes humaines ; 559 requêtes / 26,5 Mo, CSS 2,3 Mo, load 8,2 s ; ≥ 200 sans focus, `lang` inversé, lien staging.
+**Interprétation** : le branding communautaire et promotionnel est cohérent et chaleureux ; l'absence de chemin vers une chambre tarifée en fait une vitrine.
+**Enseignements** : manifeste + piliers réutilisés comme filtres, nommage par phrase-monde, possessif « Our », bibliothèque de films filtrable, footer par région, sélecteur de lieu. **À ne pas copier** : « Luxury for the Soul », Canela/Arboria, « Our Home of … ».
+
+## 9. Aethos — https://www.aethos.com/
+**Faits** : papier #f9f4ef / charbon #2a2826 / accroches #ac9e91 / accent par lieu (#72818b) / club #1e1d1b ; Amerigo BT capitales 100–120 px + Fakt 10–16 px ; hero et footer en cadre inset 32 px ; slogan « The rules are different here » porté par le H1, l'entrée de menu « Different rules » et un t-shirt ; GSAP 3.12.5 + ScrollTrigger (25) + ScrollSmoother + SplitText (17) + Lottie + clip-path en arche ; 61 reveals ; un seul bloc sombre par page (club, 1 417 px) ; club tarifé publiquement (650 / 1 800 / 2 500 €/an) + portail ; pages hôtel en 11 ancres (header 152 px) sans prix ni capacité ; pop-up promo qui fige le scroll ; moteur hotelchamp same-domain ; 399 requêtes / 38,8 Mo (JPEG drone 3 Mo sur 5 pages), load 6,7–14,9 s ; 124–200 sans focus, 68–144 liens sans nom, 0 reduced motion.
+**Interprétation** : branding « nouvelle génération » : attitude, communauté tarifée, journal ; la conversion devient l'adhésion ; la chambre disparaît.
+**Enseignements** : manifeste omniprésent, cadre inset, accent couleur par lieu, gabarit unique pour Wellness / Experiences / Retreats, club avec tarifs publics. **À ne pas copier** : Amerigo BT, le slogan, l'arche.
+
+## 10. White Desert — https://white-desert.com/
+**Faits** : trois voix typographiques : Oswald pour la donnée (« ANTARCTICA » 256 px, coordonnées, « 05:30 HRS »), Cardinal serif italique pour l'émotion (noms de voyages 42 px), Inter Tight pour l'information ; palette #1f2a44 / orange #ff7e15 (action) / crème #f3f1ec / verre ; home 20 782 px avec séquence horizontale épinglée ≈ 10 000 px (camps → presse → carte de vol), brume épinglée, curseur custom, sans bibliothèque ; prix publics partout avec variantes de camp côte à côte ($75 250 vs $65 000), page /prices en 8 cartes filtrables par saison, « How it works » en 6 étapes (onglet orange fixe) ; itinéraire jour par jour scrubbé en trois colonnes (contexte sticky / étapes / images) avec note météo franche ; /enquire en cartes cliquables (saison, mois, intérêts), promesse 24 h, `?itinerary=` ; preuves IAATO, CarbonNeutral, Global Vision Awards, CN Traveler, T+L, Vogue, scientifique nommé ; 462 requêtes / 43,9 Mo, load 6,4 s ; mobile : chat proactif + cookies + bulle sur 40 % du hero ; 69–106 sans focus, labels absents, 0 reduced motion.
+**Interprétation** : la meilleure conversion du panel parce que la transparence (prix, méthode, logistique) fait partie du récit d'expédition.
+**Enseignements** : prix comparatifs, « comment ça marche », itinéraire jour par jour, langage cartographique, trois voix typographiques, formulaire en cartes. **À ne pas copier** : Oswald/Cardinal, l'orange, la grille verticale.
+
+## 11. Explora Journeys — https://explorajourneys.com/us/en
+**Faits** : hero vidéo + widget « Where to ? / When ? » + bouton or « VIEW 658 JOURNEYS » ; header 132 → 63 px ; sable #f4f2ef / navy #0c2340 (action) / bronze #866d4b ; WT Monarch Nova + SangBleu + Shapiro ; cartes de croisière normalisées (région, carte, ports, dates, navire, nuits, pastille offre, « Per guest, from $6,375 ~~$8,500~~ · $797 per night ») ; 658 résultats, 12 par page ; encadré « All Journeys Include » (10 puces) sur 4 gabarits ; tableau 4 catégories × ≈ 25 bénéfices avec surfaces 35–280 m² ; 2 516 excursions payantes dès 145 $ ; 7 mécaniques d'offres datées ; pages suite sans prix ni CTA ; 0 avis ; Adobe AEM + Dynamic Media ; 366 requêtes / 89 Mo (suites 440 Mo, master mp4 de 82 Mo rechargé) ; 0 H1 sur la home, 37 alt manquants, zoom bloqué, accessiBe ; 45 hreflang.
+**Interprétation** : la combinatoire (658 × régions × saisons × navires × suites) est résolue par un outil simple et des cartes complètes ; la marque tient par la palette et le système verbal ; le poids et l'accessibilité sont hors norme.
+**Enseignements** : home-moteur à deux champs avec nombre de résultats, cartes de produit daté complètes, inclusions répétées, comparatif de catégories, pages saison comme argumentaires. **À ne pas copier** : WT Monarch Nova, « ocean state of mind ».
+
+## 12. Experimental Group — https://www.experimentalgroup.com/
+**Faits** : architecture ombrelle → destination → lieu → service portée par URL, fils d'Ariane 3–4 niveaux, JSON-LD typés et couleur de fond par niveau (#b1beb7 Cotswolds, #3b4b5f Cowley, #d1cfc8 Val d'Isère) ; invariants : Nantes 60–159 px + Linux Biolinum, pilule BOOK NOW 120×37, chapitres 120 px avec astérisque ; header 72 px en `mix-blend-mode: exclusion` ; home : 9 cartes 447×559, carrousel 14 destinations, carte Mapbox épinglée 635×812 avec 70 lieux et légende par type, manifeste ; tiroir « Make a booking » (Rooms / Tables / Wellness / Events) → Namastay overlay avec calendrier de prix (€610–1 190/nuit) ; one-pages de lieu 23 000–25 500 px avec chapitres vides, chambres sans m², capacité ni prix ; 0 avis ; 552 requêtes / 73 Mo (webm + mp4 chargés ensemble) ; 200 sans focus, 0 reduced motion ; hreflang 5 langues.
+**Interprétation** : la multiplicité est assumée comme signe de curation ; la hiérarchie est rendue visible par la couleur et le logo ; la fiche produit est le maillon faible.
+**Enseignements** : couleur par niveau, carte typologique épinglée, tiroir de réservation à 4 choix, calendrier de prix, moule de titre « impératif + ville + italique ». **À ne pas copier** : Nantes, l'astérisque, la matrice exacte.
+
+## 13. Soneva — https://soneva.com/
+**Faits** : palette de matières nommée dans le CSS (linen haze #f4f1e9, blue hour #012531, golden ember #e6b33c) + accent d'action #6d2e1d ; Moulin 300 + Scto Grotesk ; header 97 px → 159 px avec sous-nav de resort ; trois resorts-chapitres avec phrase de positionnement ; signature « Just What Matters. » en H2 de clôture de chaque page dans une image 1440×1800 avec bandeau de réservation épinglé (h = 148) ; 21 villas avec ligne de faits standardisée (« Sleeps 9 Adults (6 Adults 3 Child) • 3 Bedrooms • 1,370 m² »), 4 filtres, comparateur, chips, 7 inclusions, plan et carte téléchargeables ; 0 prix ; « Book » = route hash sans navigation observée (moteur azds en hypothèse) ; WhatsApp, WeChat, directeurs nommés ; Lenis ; révélations 0,45 s cubic-bezier(.33,1,.45,1) sur 551 éléments ; 668 requêtes / 19,2 Mo, FCP 4,2 s, villas load 26,8 s, 11 Mo de tiers ; `user-scalable=no`, 59–200 sans focus.
+**Interprétation** : le récit sensoriel et le catalogue à faits coexistent ; la signature de clôture et le bandeau épinglé ferment chaque page sur l'action.
+**Enseignements** : catalogue à faits dans un récit, signature de clôture répétée avec bandeau de réservation, palette de matières nommée, collection hiérarchisée en chapitres, hôtes nommés. **À ne pas copier** : « Just What Matters », Moulin, les noms de couleurs.
+
+## 14. Vipp Guesthouses — https://vipp.com/en/world-of-vipp/our-guesthouses
+**Faits** : « Guesthouses » au premier niveau du header de la boutique (44 px) ; 15 maisons, 11 pays, filtres d'humeur (Solitude / Tropical / Urban) ; liste de 280 mots à trois énoncés serif sable 43 px (« Not a hotel. Not a showroom… ») ; hero scindé lieu | cuisine, film 29,9 Mo épinglé z −1 recouvert par le contenu ; palette #222325 / #f4f3ec / #d6d0c5 / #804a2e ; Vipp Neue + IvyPresto ; page maison en long-form d'architecture (1 072 mots, architecte nommé et photographié, 160 m², coordonnées GPS en overlay, 6 produits shoppables, stories) ; prix d'appel en clair (« From AUD $970 per night, 2 adults ») puis « Book now » → Lodgify (même onglet) ou Planyo (nouvel onglet) selon la maison ; fiche « Information » en 13–14 accordéons ; 0 CTA sur la liste et le header ; 0 avis ; 10–13 vidéos `preload="auto"` : 65–226 Mo par page ; pop-up Sleeknote fixe ; 0 H1 sur 12 pages, ni hreflang ni JSON-LD ; 7 règles `scroll-timeline`.
+**Interprétation** : modèle curateur abouti (la marque raconte et signe, le partenaire vend) ; la boucle boutique ↔ séjour est fermée ; l'exécution technique et la réservation ne suivent pas.
+**Enseignements** : catégories d'humeur, énoncé de posture, long-form d'architecture, prix « from » avant le bouton, fiche pratique standardisée, page shoppable. **À ne pas copier** : Vipp Neue/IvyPresto, « Not a hotel… », le hero scindé cuisine.
+
+## 15. Pelorus Travel — https://pelorustravel.com/
+**Faits** : triple porte d'entrée destination / type d'expérience / profil du voyageur (mega-menu, home, catalogue de 186 fiches) ; cartes « MAY-OCT • £125,000 PP », filtre budget, budget obligatoire dès 40 000 £ au formulaire (10 champs) ; verbe unique ENQUIRE (orange #f38b00, 117–144×42) fixe sur 16/16 pages, jamais « Book » ; pages process (6 étapes), why (7 raisons), testimonials (~20 citations signées par type de voyage), 9 badges ; campagnes incarnées (4 employés nommés en vidéo, 5 archétypes d'enfants) ; architecture Land / Sea / Air + Foundation, cross-sell yachts ; MFred 96–128 px + Montserrat eyebrow interlettré 40 % + Berlingske ; Alpine.js + Swiper, 48 reveals ; home 2 417 mots, 120,9 Mo (vidéo 21 Mo ×2, images 66,5 Mo, 0 srcset) ; modale cookies jamais fermée + pop-in Sleeknote plein écran mobile ; /enquire sans humain nommé ni délai ; 200 sans focus ; JSON-LD TravelAgency, FAQ.
+**Interprétation** : la découverte et la réassurance argumentée sont exemplaires pour le sur mesure ; le poids, les interruptions et le formulaire impersonnel freinent.
+**Enseignements** : trois portes d'entrée, auto-qualification par le prix, méthode et raisons numérotées, témoignages signés par type, campagnes avec employés nommés, verbe unique. **À ne pas copier** : MFred, l'orange, « Curious Minds ».
+
+## 16. Ce que la série 2 ajoute à la compétence
+
+| Mécanisme nouveau | Observé chez | Où il est intégré |
+|---|---|---|
+| Couleur pleine et chapitres comme structure | Odisej, Mas Girbau, Experimental, Aethos | `visual-design-system.md` §1, `homepage-blueprints.md` |
+| Display 80–256 px, trios typographiques à rôles | Odisej, White Desert, Aethos, Pelorus, Experimental | `visual-design-system.md` §2–3 |
+| Text-fill, split-text, section épinglée + rideau, séquence horizontale | Odisej, Mas Girbau, White Desert, Habitas | `motion-guidelines.md` §2 (niveau signature narrative) |
+| Transparence tarifaire (cartes, grilles, prix barrés, « from ») | White Desert, Explora, Pelorus, Vipp, Experimental (moteur) | `ux-booking-conversion.md` §7, `accommodation-pages.md` |
+| « Comment ça marche », formulaire en cartes, budget qualifiant | White Desert, Pelorus | `ux-booking-conversion.md` §10, blueprint J |
+| Manifeste-produit, piliers, club tarifé, communauté | Habitas, Aethos, Experimental, Soneva | `brand-strategy.md` §8, blueprint I |
+| Invariants et marqueurs multi-entités | Experimental, Soneva, Habitas | blueprint I, `visual-design-system.md` §9 |
+| Home-moteur à deux champs, cartes de produit daté, inclusions, comparatif | Explora | blueprint K |
+| Modèle curateur, page shoppable, prix « from » | Vipp | blueprint L |
+| Catalogue à faits dans un récit, signature de clôture + bandeau épinglé | Soneva | `accommodation-pages.md`, `visual-design-system.md` §9.16 |

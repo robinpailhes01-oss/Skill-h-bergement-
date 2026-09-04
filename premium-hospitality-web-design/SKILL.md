@@ -1,6 +1,6 @@
 ---
 name: premium-hospitality-web-design
-description: "Concevoir des sites d'hébergement premium (hôtels indépendants, boutique-hôtels, 5 étoiles, chalets, villas, hébergements insolites, resorts wellness, domaines, maisons d'hôtes, conciergeries et collections) qui produisent une impression haut de gamme, immersive et mémorable ET qui convertissent en réservations directes ou demandes qualifiées. Utiliser dès qu'un projet concerne un site d'hôtel, de location de vacances, de spa/resort, de refuge ou de conciergerie d'hébergement : création, refonte, audit, brief créatif, page chambre, parcours de réservation, direction artistique, animations, contenus photo/vidéo, copywriting hôtelier. Fondé sur l'audit approfondi (2026-09) de FORESTIS, Hotel Corazón, Borgo Egnazia, The Seagate et Le Collectionist."
+description: "Concevoir des sites d'hébergement premium (hôtels indépendants, boutique-hôtels, 5 étoiles, chalets, villas, hébergements insolites, resorts wellness, domaines, maisons d'hôtes, conciergeries et collections) qui produisent une impression haut de gamme, immersive et mémorable ET qui convertissent en réservations directes ou demandes qualifiées. Utiliser dès qu'un projet concerne un site d'hôtel, de location de vacances, de spa/resort, de refuge ou de conciergerie d'hébergement : création, refonte, audit, brief créatif, page chambre, parcours de réservation, direction artistique, animations, contenus photo/vidéo, copywriting hôtelier. Couvre aussi les groupes multi-lieux, les expéditions et voyages sur mesure, les croisières et les marques non hôtelières qui hébergent. Fondé sur l'audit de quinze références (FORESTIS, Corazón, Borgo Egnazia, Seagate, Le Collectionist, Odisej, Mas Girbau, Habitas, Aethos, White Desert, Explora, Experimental, Soneva, Vipp, Pelorus)."
 ---
 
 # Premium Hospitality Web Design
@@ -11,7 +11,7 @@ Ce fichier est le mode d'emploi. Les connaissances détaillées sont dans `refer
 
 ## 1. Quand utiliser cette compétence
 
-- Créer ou refondre le site d'un hôtel indépendant, boutique-hôtel, hôtel 5 étoiles, chalet ou hôtel de montagne, villa ou maison de vacances, hébergement insolite (cabane, dôme, lodge, bateau), resort ou retraite wellness, domaine, maison d'hôtes, lieu d'expérience, conciergerie ou collection d'hébergements.
+- Créer ou refondre le site d'un hôtel indépendant, boutique-hôtel, hôtel 5 étoiles, chalet ou hôtel de montagne, villa ou maison de vacances, hébergement insolite (cabane, dôme, lodge, bateau), resort ou retraite wellness, domaine, maison d'hôtes, lieu d'expérience, conciergerie ou collection d'hébergements, groupe hôtelier ou marque-communauté multi-lieux, opérateur d'expéditions ou de voyages sur mesure, croisière ou itinéraire daté, marque non hôtelière (design, vin, mode) qui propose des séjours.
 - Concevoir une page précise de ce type de site : accueil, hébergement, expériences, table, spa, histoire, contact, parcours de réservation.
 - Auditer un site existant, produire un brief créatif, une direction artistique, un système de mouvement, une shot list photo/vidéo, un cahier des charges designer/développeur.
 - Ne pas utiliser pour : sites de chaînes purement transactionnels sans marque propre, comparateurs, sites non liés à l'hébergement (pour ces cas, préférer une compétence de design web générale).
@@ -74,6 +74,10 @@ Poser trois questions : (a) vend-on des nuits dans un lieu unique ou des séjour
 | Resort / retraite wellness | programmes, durée, praticiens, transformation | hybride (programmes + dates) | §F |
 | Collection / conciergerie | dizaines de maisons, destinations, recherche, favoris, conseillers | recherche + demande (conversationnel assisté) | §G |
 | Domaine / maison d'hôtes / lieu d'expérience | peu de chambres, événements, table, ateliers | conversationnel + événements | §A adapté (voir notes §H) |
+| Groupe hôtelier / marque-communauté | plusieurs lieux, manifeste, piliers, club ou adhésion, journal | transactionnel par lieu + adhésion | §I |
+| Expédition / voyage sur mesure / tourisme expérientiel | itinéraires datés, camps, logistique, prix élevés, demande accompagnée | conversationnel qualifié (enquire) | §J |
+| Croisière / itinéraire daté / offre combinatoire | destinations × dates × navires × cabines, inclusions, offres datées | transactionnel à étapes | §K |
+| Marque non hôtelière qui héberge (design, vin, mode, architecte) | boutique existante, maisons-showrooms, partenaires locaux | hybride via partenaire (curateur) | §L |
 
 ## 6. Comment analyser la marque et construire le positionnement
 
@@ -99,8 +103,8 @@ Une page par type, nom propre, promesse, galerie d'au moins huit images ordonné
 ## 10. Comment rédiger, définir la direction artistique et les animations
 
 - Textes : voix de la maison, phrases courtes, vocabulaire concret et sensoriel, promesse avant caractéristiques, CTA en verbes distincts (Découvrir / Demander / Réserver). `references/copywriting-hospitality.md`.
-- Direction artistique : palette de 5 à 7 couleurs dont une seule d'accent, deux familles typographiques maximum, échelle de titres modérée, grille à largeur maximale définie, vide généreux, photos traitées de manière homogène. `references/visual-design-system.md`.
-- Animations : choisir une signature (révélation d'images, titres qui montent, fondu de sections, sticky de contenu) et s'y tenir ; durées de 200 à 900 ms ; easings « out » ; version mobile allégée ; reduced motion. `references/motion-guidelines.md`.
+- Direction artistique : palette de 5 à 7 couleurs dont une seule d'accent (ou, pour un site à chapitres, 3 à 5 fonds pleins issus du lieu avec contrastes vérifiés), deux familles typographiques maximum (trois si chacune a un rôle : donnée / émotion / information), échelle de titres adaptée à la personnalité (modérée pour le calme, display 80–160 px pour un mot-territoire), grille à largeur maximale définie, vide généreux, photos traitées de manière homogène. Ne pas imposer le « quiet luxury » crème par défaut : la couleur pleine, le chapitrage et le manifeste sont des voies premium légitimes. `references/visual-design-system.md`.
+- Animations : choisir une signature (révélation d'images, titres qui montent, fondu de sections, sticky de contenu, ou, au niveau « signature narrative », text-fill, split-text, section épinglée avec rideau, séquence horizontale unique) et s'y tenir ; durées de 200 à 900 ms ; easings « out » ; version mobile allégée ; reduced motion. Le benchmark montre que le mouvement narratif (Mas Girbau, White Desert, Odisej) peut coexister avec la conversion à condition d'une seule séquence par page, d'un « passer » et d'un budget de poids. `references/motion-guidelines.md`.
 
 ## 11. Comment optimiser la réservation
 

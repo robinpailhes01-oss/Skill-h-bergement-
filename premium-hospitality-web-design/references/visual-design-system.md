@@ -12,6 +12,23 @@
 | The Seagate | #f2f1ec (crème) | #222222 / #203a4d (bleu marine) | bouton plein #203a4d texte blanc 12 px capitales interlettrage 3 px, 119×40 ; bouton contour 1 px #203a4d 202×44 | Owners 300 : 48 px capitales interlettrage 13 px (H1 de sections), 34 px hero interlettrage 4 px | 16 px / 22 px, 300, centré, 890 px | 1 136–1 340 px | 0 | fixe 112 px crème, logo centré, burger à gauche, bouton à droite ; widget de réservation fixe 248×242 à droite |
 | Le Collectionist | #ffffff / #f7f7f7 | #202020, gris #757575 | bouton plein #202020 texte blanc 14 px capitales interlettrage 1 px, hauteur 44–52 ; icônes rondes 40 px (rayon 9999) | Brown 32 px capitales (H2), 24 px (H3), 14 px onglets ; GTAlpina (serif) 60 px pour la signature du hero et les chiffres ; Ayer | 16 px / 22 px | 1 280 px | 0 sur boutons, 9999 sur icônes | 72 px, transparent sur hero, burger + logo à gauche, téléphone + app + favoris + compte à droite |
 
+### Série 2 (tokens mesurés)
+
+| Site | Fond(s) | Texte | Accent / bouton | Titres | Corps | Largeur | Rayons | Header |
+|---|---|---|---|---|---|---|---|---|
+| Hotel Odisej | #f7f7ee, #5b6647 (olive), #03364f (bleu nuit), liaison #e3e3c4 | #434b34 / #2e3323 / #e3e3c4 | pills 999 px : « Book now » 109×36 #5b6647, contour #d4d4b9 | PP Woodland 80/88 px (−2,4 px), 60, 40 ; mobile 40/30/36 | DM Sans 16/20,8 et 26/31 | images à coins arrondis, ratios 1,6 / 1,78 / 1,33 / 1 / 0,75 | 999 (pills), images arrondies | 90 px (80 mobile), transparent → crème |
+| Mas Girbau | #fff8eb, #252b15, #242c04, #121602, #e1e7dd, #fffcf5 | encre verte | corail #ff906d pilule 129×63 rayon 100 | Editor's Note 300 : 160/80/64/40 ; italiques d'accent ; mobile 100/56/40 | 24/20,8/16 ; Inter 12 px capitales pour labels | one-page, arches SVG 1 360×208, cercles 290 px | 100 (pilule), 0 ailleurs | 58 px (48 mobile) |
+| Our Habitas | #ffffff, #fff9f2 | #464543 / #444444 | pilules #807566 28 px rayon 20 ; CTA contour 365×58 rayon 0 | Canela 300/400 60/52/36 px ls 4,5/2,5/1,7 + Arboria 500 capitales 22 px | acumin-pro 300 18/25 | cartes 410×526, img-text 620×764 | 0 et 20 | 52 px blanc 80 % blur 20 px |
+| Aethos | papier #f9f4ef ; club #1e1d1b | #2a2826 ; accroches #ac9e91 (2,4:1, insuffisant) | par lieu #72818b / #a3afb8 ; bouton filaire 220×48 10 px capitales + flèche → fond #2a2826 | Amerigo BT capitales 120,5/100/72/48 px ; H1 gabarits 40 px bas de casse | Fakt 16/24 ; labels 10–12 px capitales | hero et footer inset 32 px (16 mobile) | 0 | 78 px ; hôtels 152 px avec 11 ancres |
+| White Desert | #f3f1ec, #e9e7e1, #0e1118, #323640, verre rgba(31,42,68,.05–.2) | #1f2a44 | orange #ff7e15 (action seulement) ; boutons 239×60 / 261×60 ; pilules nav 120×40 | Oswald 256 px (ANTARCTICA), 320 px (wordmark) ; Cardinal serif italique 42 px ; Inter Tight 500 | 14/21 et 16/22,4 | grille verticale visible, cartes tarifaires 1 320×476 | 2 / 4 / 6 px | 80 px fixe transparent |
+| Explora Journeys | #f4f2ef, sable #e7e1da, tableau #ede9e4 | #222222 ; bronze #866d4b | navy #0c2340 (action) ; bouton or 250×68 | WT Monarch Nova 39/32 px capitales ls 1,95 ; SangBleu 44/34/28/24 | Shapiro 15/14/12 ; Helvetica Neue sur boutons | cartes de croisière normalisées | 5 px | 132 → 63 px |
+| Experimental Group | blanc / noir ; par niveau #b1beb7, #d1cfc8, #3b4b5f, #8a816e, #622e1f | #000 ; #bdbcb9 | #954935 ; pilule BOOK NOW 120×37 | Nantes 60–159 px, italique sur le 2e segment ; chapitres 120 px | Linux Biolinum 18/21,6 ; UI 14–16 px capitales | 447×559 cartes, carte sticky 635×812 | 15 984 (pilule) | 72 px `mix-blend-mode: exclusion` |
+| Soneva | linen haze #f4f1e9 ; blue hour #012531 | #19100d ; secondaire 3,45:1 | #6d2e1d → hover #012531 ; golden ember #e6b33c | Moulin 300 48/40/32/24 (36/28/24/20 mobile) | Scto Grotesk 16/14/12 | cartes villas 448×299, resorts 448×560 | 2 px | 97 px → 159 px avec sous-nav |
+| Vipp Guesthouses | #222325 (corps), #f4f3ec (récit), #d6d0c5 (fiche), #804a2e | #ccbca2 (8,45:1), #bab2a8 | « Book now » 333×52 #efefef | Vipp Neue + IvyPresto ; énoncés 43,2 / 22 px | 16 px ; boutons Arial 12 px | grille 22 px sans max-width ; cartes 923×644 / 451×644 | 0 | 44 px boutique |
+| Pelorus Travel | #ffffff, #f5f5f5, #ebe9e6 | #535353, #191919, #063657 | orange #f38b00 (≈ 2,5:1 sur blanc) 117–144×42 | MFred 96–128 px ls 10 % ; eyebrow Montserrat 18 px 600 ls 40 % | Berlingske 16/24 et 18/28 | 1 280 / texte 896 ; cartes 477×480 | 0 | 134 px (84 + 50) |
+
+Enseignements série 2 : (1) la couleur pleine issue du lieu (olive, bleu nuit, vert profond, corail, orange) structure les pages sans nuire au premium quand elle reste limitée à 3–5 fonds et un accent d'action ; (2) les displays 80–256 px sont réservés à un mot ou une phrase courte, jamais à un paragraphe ; (3) les pilules (rayon 999) et les rayons 2–6 px coexistent avec le rayon 0 : le rayon est un choix de personnalité, pas un marqueur de gamme ; (4) les contrastes des accents orange et des accroches beige tombent sous 3:1 chez trois sites : tester avant d'adopter une couleur d'action chaude.
+
 Enseignements : (1) une seule famille typographique bien choisie suffit à trois sites sur cinq ; (2) le crème (#f2f1eb–#f7f7f7) est la couleur de fond dominante du luxe calme, tandis que la couleur pleine (rouge Corazón) crée une marque « statement » ; (3) les boutons sont rectangulaires (rayon 0) partout, en capitales interlettrées 12–14 px ; (4) les largeurs de contenu texte tournent autour de 700–900 px ; (5) les headers fixes mesurent 64–128 px.
 
 ## 1. Palettes types
@@ -26,6 +43,9 @@ Une palette = 1 fond principal, 1 fond secondaire, 1 texte, 1 texte atténué, 1
 | **Couleur pleine** (statement) | boutique à forte personnalité, insolite | une couleur saturée (ex. #c8472f, #2f4f3f, #1d3557) | même teinte −10 % | teinte très sombre de la même famille | idem à 70 % | inversé (fond sombre / texte de la couleur pleine) | crème | Corazón ; exige des photos traitées dans la même gamme |
 | **Blanc plateforme** (collection, conciergerie) | collection, agence | #ffffff | #f7f7f7 | #202020 | #757575 | #202020 | #b08d57 | Le Collectionist ; l'image porte la couleur |
 | **Forêt & brume** (nature, insolite) | cabanes, lodges, éco-resorts | #eef0ea | #dfe3d9 | #1e2620 | #5f6b62 | #3d5a45 | #c6a15b | — |
+| **Paysage tri-tonal** (chapitres) | hôtel de destination, île, montagne, maison à récit | crème #f7f7ee | 2 fonds pleins issus du lieu (olive #5b6647, bleu nuit #03364f ; ou vert profond #252b15 et noir #121602) | encre de la même famille | idem à 70 % | 1 couleur chaude (corail #ff906d, ocre) sur les seuls CTA | crème de liaison #e3e3c4 | Odisej / Mas Girbau ; chaque chapitre = 1 fond ; vérifier chaque couple texte/fond ≥ 4,5:1 |
+| **Papier & charbon + accent par lieu** (collection) | groupes, collections, clubs | #f9f4ef | #1e1d1b (un seul bloc sombre) | #2a2826 | #7d7570 (≥ 4,5:1, pas #ac9e91) | accent différent par lieu (#72818b, #a3afb8…) | — | Aethos ; l'accent identifie le lieu sur CTA et footer |
+| **Expédition** (donnée + émotion) | expéditions, aventure, croisière | #f3f1ec | #0e1118 (sections sombres), verre | #1f2a44 | #5b6473 | orange ou navy réservé à l'action (contraste ≥ 3:1 sur blanc : préférer #d9640a à #ff7e15) | — | White Desert / Explora |
 | **Nuit & or** (hôtel urbain, bar) | 5 étoiles urbain, membres | #141414 | #1f1f1f | #f2efe8 | #a9a49a | #c9a75f | #f2efe8 | mode sombre par défaut ; attention à la lisibilité des longs textes |
 
 Règles : pas plus d'une couleur saturée ; les photos doivent « entrer » dans la palette (traitement colorimétrique) ; les états hover/focus dérivent de l'accent (−10 % luminosité, ou inversion) ; les couleurs fonctionnelles restent discrètes (erreur #b23a2a, succès #2e6b3f, focus = accent avec anneau 2 px).
@@ -38,6 +58,8 @@ Règles : pas plus d'une couleur saturée ; les photos doivent « entrer » dans
 | **Serif à contraste + sans neutre** | GT Alpina / Canela / Ogg / Editorial New / Fraunces (titres 48–72 px, bas de casse) | Brown / Inter / Söhne / Untitled Sans 16–18 px | éditorial, raffiné, chaleureux | 5 étoiles, domaine, collection (Le Collectionist mélange GTAlpina + Brown) |
 | **Humaniste classique** | Optima / Albertus / Cormorant Garamond SemiBold en capitales interlettrées | Lato / Source Sans / Nunito Sans | patrimoine, méditerranéen | domaine, hôtel historique (Borgo) |
 | **Display de caractère + sans** | Klinsman / Druk / Reckless / une display sur-mesure en capitales | même display ou sans simple | statement, personnalité forte | boutique « rebelle », insolite (Corazón) |
+| **Trio à rôles** | display condensé ou serif pour le mot-territoire (Oswald / Cardinal, MFred) + serif italique pour l'émotion + sans pour l'information (Inter Tight, Berlingske) | sans 16–18 px | expédition, aventure, voyage sur mesure | White Desert, Pelorus ; chaque famille a une fonction (donnée / émotion / information), jamais deux familles pour le même rôle |
+| **Display serif + italiques d'accent** | Editor's Note / Nantes / PP Woodland 80–160 px avec un segment en italique | sans ou serif humaniste 16–20 px | maisons à récit, groupes | Mas Girbau, Experimental, Odisej ; l'italique marque le mot émotionnel |
 | **Serif transitionnel + serif texte** | Freight Display / Tiempos Headline | Tiempos Text / Freight Text 17–18 px | littéraire, lent | maison d'hôtes, retraites |
 
 Règles (Indispensable) : 2 familles maximum ; 4 fichiers de police maximum ; titres en graisse 300–500 (jamais 700 en display luxe, sauf choix statement) ; capitales seulement avec interlettrage 0,08–0,25 em et taille ≥ 12 px ; bas de casse pour les titres longs ; texte courant 16–20 px, interligne 1,5–1,65, largeur 55–75 caractères.
@@ -46,7 +68,7 @@ Règles (Indispensable) : 2 familles maximum ; 4 fichiers de police maximum ; ti
 
 | Rôle | Desktop | Mobile | Interligne | Interlettrage | Casse |
 |---|---|---|---|---|---|
-| Display hero | 56–72 px | 34–42 px | 1,05–1,15 | −0,01 à 0,02 em | selon famille |
+| Display hero | 56–72 px (site calme) ; 80–160 px pour un mot-territoire ; jusqu'à 256 px pour un seul mot (White Desert) | 34–42 px ; 56–100 px pour un mot ; −60 % minimum | 1,0–1,15 | −0,03 à 0,02 em | selon famille |
 | H1 page | 44–56 px | 32–38 px | 1,1 | 0–0,02 em (capitales : 0,15–0,25 em) | — |
 | H2 section | 32–40 px | 26–30 px | 1,15 | idem | — |
 | H3 carte | 22–26 px | 20–22 px | 1,25 | — | — |
@@ -71,7 +93,7 @@ Ratio d'échelle recommandé : 1,25 (majeur tierce) pour les sites calmes ; 1,33
 
 | Élément | Recommandation | Notes |
 |---|---|---|
-| Rayons | 0 px (luxe classique / minimal) ou 2–4 px (contemporain) ; 9999 px seulement pour les icônes rondes et les tags | les cinq sites du benchmark sont à 0 px sur les boutons |
+| Rayons | 0 px (luxe classique / minimal), 2–6 px (contemporain, expédition), ou pilule 999 px assumée sur tous les boutons (Odisej, Mas Girbau, Experimental) ; images arrondies possibles (Odisej) | la série 1 est à 0 px ; la série 2 montre que la pilule est compatible avec le premium si elle est systématique |
 | Boutons | hauteur 44–56 px, padding 16–32 px horizontal ; plein (accent) pour l'action principale, contour 1 px pour la secondaire, lien souligné pour la tertiaire ; texte 12–14 px capitales interlettrées ou 16 px bas de casse | un seul bouton plein par viewport |
 | Traits et séparateurs | 1 px, couleur texte à 15–20 % d'opacité | pas d'ombres portées lourdes |
 | Ombres | aucune ou très diffuse (0 8px 24px rgba(0,0,0,.06)) sur les modales et le widget de réservation | — |
@@ -245,6 +267,13 @@ Pour chaque composant : objectif, contenu, comportement, variantes, mobile, erre
 - **Comportement** : fond contrasté (marine Seagate) ou même fond que la page avec un trait (FORESTIS) ; textes ≥ 13 px.
 - **Mobile** : colonnes empilées ou accordéons ; coordonnées cliquables.
 - **Erreurs** : textes 9 px (Borgo) ; footer plus riche que le menu ; liens légaux en boutons.
+
+### 9.15 bis Bandeau de réservation épinglé dans l'image de clôture (Soneva)
+- **Objectif** : fermer chaque page sur l'action, dans l'émotion.
+- **Contenu** : image pleine largeur 1440×1800 avec signature de marque en H2 (« Just What Matters. »), bandeau de dates / voyageurs / bouton épinglé (h ≈ 148) pendant le défilement de l'image.
+- **Comportement** : `position: sticky` dans la section ; bandeau opaque ou verre ; disparaît au footer.
+- **Mobile** : bandeau réduit à un bouton pleine largeur ; image 4:5.
+- **Erreurs** : bouton qui ne navigue pas (observé) ; signature différente selon les pages.
 
 ### 9.16 CTA sticky
 - **Objectif** : réserver ou demander sans remonter.

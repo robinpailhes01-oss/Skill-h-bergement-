@@ -4,7 +4,7 @@
 
 ## Rappel : ordre narratif de référence (à adapter)
 
-Promesse (hero) → pourquoi ce lieu (manifeste) → offre concrète (hébergements) → preuve de l'expérience (expériences, table, spa) → preuve sociale → destination et accès → offres et bénéfices directs → contact humain → newsletter → footer. Observé dans le benchmark : FORESTIS place l'offre à 3 003 px (trop tard) ; Le Collectionist la place dès la 2e section ; The Seagate suit un motif unique répété cinq fois (lisible mais monotone) ; Hotel Corazón enchaîne CTA → vidéo → manifeste → 12 chambres (efficace, sans preuve) ; Borgo Egnazia remplace la home par quatre tuiles-menus (immersif, vide d'information).
+Promesse (hero) → pourquoi ce lieu (manifeste) → offre concrète (hébergements) → preuve de l'expérience (expériences, table, spa) → preuve sociale → destination et accès → offres et bénéfices directs → contact humain → newsletter → footer. Observé dans le benchmark : FORESTIS place l'offre à 3 003 px (trop tard) ; Le Collectionist la place dès la 2e section ; The Seagate suit un motif unique répété cinq fois (lisible mais monotone) ; Hotel Corazón enchaîne CTA → vidéo → manifeste → 12 chambres (efficace, sans preuve) ; Borgo Egnazia remplace la home par quatre tuiles-menus (immersif, vide d'information). Série 2 : Hotel Odisej chapitre sa home par fonds pleins (crème, olive, bleu nuit) séparés de vagues ; Mas Girbau raconte en chapitres (prologue, essence, pierre/feu/bois) sur une one-page de 16 800 px ; Our Habitas et Aethos ouvrent par un manifeste puis les lieux ; White Desert met les voyages et leurs prix en 2e écran ; Explora Journeys met un moteur à deux champs dans le hero ; Pelorus ouvre trois portes (destination, expérience, profil) ; Soneva ferme chaque page par la même signature avec bandeau de réservation épinglé.
 
 ---
 
@@ -311,6 +311,32 @@ Promesse (hero) → pourquoi ce lieu (manifeste) → offre concrète (hébergeme
 **Animation** : niveau **sobre** (l'outil prime) ; fondus courts, header qui se réduit au scroll (132 → 63 px observé), pas de séquence narrative.
 **Erreurs** : pages suites sans prix ni CTA (observé) ; vidéos master de 82 Mo rechargées (observé : 440 Mo sur une page) ; H1 absent, zoom bloqué, overlay d'accessibilité en substitut ; « Contact » qui renvoie à la home ; aucun avis client.
 
+---
+
+## L. Marque non hôtelière qui héberge (Vipp Guesthouses) et hébergement-showroom
+
+**Positionnement recommandé** : le modèle curateur : la marque (design, mode, vin, mobilier, architecte) raconte, signe, met en scène et affiche le prix ; un partenaire local vend la nuit. Le séjour est la démonstration du produit. Références : « Guesthouses » au premier niveau du header de la boutique ; hero scindé lieu | produit ; « Not a hotel. Not a showroom… » ; pages de maison en long-form d'architecture (architecte nommé, chiffres, coordonnées GPS) ; prix d'appel en clair avant le bouton ; objets du décor liés à la boutique.
+
+**Sitemap** : Boutique (existant) · Guesthouses (liste par humeur : solitude / tropical / urbain… et par pays) · Page maison (récit, architecte, produits mis en scène, galerie/film, fiche pratique standardisée en accordéons : capacité, chambres, équipements, accès, saisons, conditions, prix « from », réservation) · Histoire de la marque · Contact / séjours (e-mail dédié) · Résidences ou projets (secondaire).
+
+**Page liste (fait office d'accueil des séjours)**
+| # | Section | Contenu | CTA |
+|---|---|---|---|
+| 1 | Hero | film ou image scindée lieu | produit ; 1 énoncé de posture (« Not a hotel… ») | Voir les maisons |
+| 2 | Filtres d'humeur | 3–5 catégories + pays | — |
+| 3 | Les maisons | cartes « nom | lieu », image signature, prix « from », capacité | Découvrir |
+| 4 | Pourquoi dormir chez une marque | 3 énoncés courts (design vécu, architecte, objets) | — |
+| 5 | Stories / film | module de stories ou film de marque | — |
+| 6 | Preuve | presse design, prix d'architecture, avis | — |
+| 7 | Contact séjours + footer boutique | | |
+
+**Parcours principal (hybride curateur)** : Liste → Maison (récit → faits → prix « from » → « Book now ») → moteur du partenaire (Lodgify, Planyo…) aligné graphiquement, même onglet, ou demande par e-mail dédié.
+**CTA** : Book now (plein, dès le premier viewport de la page maison et en barre basse mobile) ; Shop this house (secondaire) ; Écrire à stay@.
+**Preuves** : architecte et photographe nommés, presse design, chiffres de la maison (m², hauteur, distance), avis clients (absents chez Vipp : à ajouter).
+**Contenus** : long-form par maison (600–1 100 mots), 20–40 photos à l'heure bleue et de jour, film court, liste des produits présents avec liens, fiche pratique complète, portraits d'architecte.
+**Animation** : niveau **sobre** ; un seul geste : hero épinglé recouvert par le contenu, zoom 1,05 au hover ; pas de bibliothèque.
+**Erreurs** : aucun CTA de réservation sur la liste ni le header (observé) ; moteurs tiers différents par maison avec devises hétérogènes ; 10–13 vidéos en `preload="auto"` (65–226 Mo par page observés) ; pop-up marketing sur la colonne de prix ; 0 H1 ; méga-menu produit qui couvre 80 % du viewport.
+
 ## Tableau récapitulatif
 
 | Modèle | Mode | Section 3 de la home | CTA principal | Niveau d'animation | Contenu critique |
@@ -325,3 +351,4 @@ Promesse (hero) → pourquoi ce lieu (manifeste) → offre concrète (hébergeme
 | Groupe / marque-communauté | transactionnel par lieu + adhésion | Les lieux | Choisir un lieu | mesuré à signature | manifeste, piliers, cartes de lieux normalisées, carte |
 | Expédition / sur mesure | conversationnel qualifié | Les voyages (prix) | Enquire / Start planning | signature narrative | itinéraires jour par jour, prix publics, comment ça marche |
 | Croisière / combinatoire | transactionnel à étapes | Voyages en vedette | Voir les voyages | sobre | widget 2 champs, cartes normalisées, inclusions, comparatif suites |
+| Marque non hôtelière (curateur) | hybride via partenaire | Les maisons | Book now (page maison) | sobre | long-form par maison, produits liés, fiche pratique, prix « from » |
