@@ -223,6 +223,94 @@ Promesse (hero) → pourquoi ce lieu (manifeste) → offre concrète (hébergeme
 - Animation sobre ; photos de la vie du domaine (saisons, récoltes, tables dressées).
 - Erreurs : mélanger séjours et événements dans une même page ; absence de capacité et de tarifs événementiels indicatifs.
 
+---
+
+## I. Groupe hôtelier, collection multi-lieux, marque-communauté (Habitas, Aethos, Experimental, Soneva)
+
+**Positionnement recommandé** : la marque ombrelle vend une manière de vivre (manifeste, piliers, communauté, méthode) et chaque lieu la décline ; l'unité de vente reste le lieu. Références de mécanismes : « Our Home of Play / Nature / Restoration » et six piliers (Our Habitas) ; « The rules are different here » + club tarifé (Aethos) ; hiérarchie groupe → destination → lieu → service rendue par URL, fil d'Ariane, couleur de fond et logotype de lieu (Experimental) ; trois resorts-chapitres avec phrase de positionnement et signature de clôture « Just What Matters. » (Soneva).
+
+**Sitemap** : Accueil (marque) · Lieux / Destinations (grille filtrable : zone, pays, type, équipements) · Page lieu (one-page ou hub : intro, chambres, table, expériences, wellness, agenda, communauté, journal, presse) → pages de service du lieu si nécessaire · Manifeste / À propos · Communauté ou Club (offre, tarifs, accès membres) · Expériences signature transversales · Offres (par lieu, avec code tarifaire) · Journal · Impact / durabilité · Presse · Contact (par lieu) · Réservation (sélecteur de lieu → moteur) · Propriétaires / partenaires (secondaire).
+
+**Page d'accueil**
+| # | Section | Contenu | CTA |
+|---|---|---|---|
+| 1 | Hero | vidéo courte ou image ; slogan-manifeste en 3–8 mots ; « Book » ouvre un sélecteur de lieu (jamais un moteur générique) | Choisir un lieu |
+| 2 | Manifeste | 40–90 mots + 3–6 piliers nommés (réutilisés comme filtres et catégories) | — |
+| 3 | Les lieux | grille de cartes normalisées (image, nom en phrase-monde, ville, pays, type, « coming soon » si besoin, prix « à partir de » si transactionnel) + filtres | Découvrir |
+| 4 | Carte | carte stylisée épinglée avec clusters et légende par type (Experimental : 70 lieux) | Explorer |
+| 5 | Communauté / club | section sombre unique : promesse, chiffres (« 50+ countries »), tarifs publics des adhésions, portail | Rejoindre |
+| 6 | Expériences signature | 3–4 transversales (retraites, festivals, itinéraires multi-lieux) | Voir |
+| 7 | Journal / stories | 3–4 articles datés | Lire |
+| 8 | Impact | fondation, durabilité, chiffres | — |
+| 9 | Preuve | presse, distinctions, avis par lieu | — |
+| 10 | Newsletter + footer par région (liste de tous les lieux) | | |
+
+**Parcours principal** : Accueil → Lieux (filtre) → Page lieu (chambres avec faits et prix) → Moteur du lieu pré-rempli (ou sélecteur de lieu → moteur). ≤ 3 clics ; jamais de lien de réservation avec dates codées en dur (observé chez Habitas et Odisej).
+**CTA** : Choisir un lieu / Réserver (contextuel au lieu) ; Rejoindre (club) ; Nous écrire (par lieu).
+**Preuves** : presse par lieu, distinctions, chiffres de communauté, journal daté, avis par lieu.
+**Contenus** : par lieu : 20–30 photos + 1 vidéo ; transversal : manifeste, portraits d'équipe, films de marque (Habitas : bibliothèque filtrable), logotypes de lieux.
+**Animation** : niveau **mesuré à signature** ; une signature de groupe (Aethos : cadre inset + capitales serif ; Experimental : mots fixes en `mix-blend-mode`), déclinée par lieu avec un accent couleur.
+**Erreurs** : home qui ne mène à aucune chambre (Habitas : 0 chambre, 0 prix) ; pop-up promo qui bloque le scroll (Aethos) ; one-pages de lieu de 25 000 px avec chapitres vides (Experimental) ; menu à trois audiences mélangées ; pages lieu sans surface, capacité ni prix ; devises et dates imposées dans les liens moteur.
+
+---
+
+## J. Expédition, voyage sur mesure, tourisme expérientiel (White Desert, Pelorus)
+
+**Positionnement recommandé** : la rareté et la méthode ; on vend une expérience datée, accompagnée, tarifée, avec des étapes ; la réassurance logistique fait partie du désir. Références : itinéraires jour par jour scrubbés, prix publics comparatifs, « How it works » en six étapes, langage cartographique (White Desert) ; triple porte d'entrée destination / type d'expérience / profil, cartes « saison • prix par personne », budget obligatoire au formulaire, pages « process » et « why » numérotées, témoignages signés par type de voyage (Pelorus).
+
+**Sitemap** : Accueil · Expériences ou Itinéraires (liste filtrable : destination, type, saison, budget) · Page itinéraire (jour par jour, inclusions, dates, prix, camp/hébergement, préparation) · Camps / hébergements (page par camp : confort, coordonnées, activités) · Destination(s) (géographie, faune, saisons, cartes) · Comment ça marche (étapes, acompte, assurance, préparation, médical) · Tarifs (grille filtrable par saison) · Pourquoi nous (raisons numérotées, équipe, sécurité, affiliations) · Témoignages · Fondation / impact · Journal · Contact / Demande (formulaire qualifiant) · Presse.
+
+**Page d'accueil**
+| # | Section | Contenu | CTA |
+|---|---|---|---|
+| 1 | Hero | vidéo ou image du territoire, nom de la destination en display, accroche en serif italique, « Watch film » | Enquire / Start planning |
+| 2 | Vision | 60–90 mots : rareté chiffrée (« fewer than 500 people a year »), légitimité (années, affiliations) | — |
+| 3 | Les voyages | 3–6 cartes : nom, saison, durée, prix par personne, « from », variantes de camp côte à côte | Voir l'itinéraire |
+| 4 | Comment ça marche | 4–6 étapes numérotées (demande → conseil → acompte → préparation → départ) | Planifier |
+| 5 | Les camps / hébergements | cartes avec coordonnées, capacité (« six suites »), confort | Découvrir |
+| 6 | Carte & logistique | carte animée du trajet, distances, temps de vol, météo franche | — |
+| 7 | Preuve | presse, prix, affiliations (IAATO, CarbonNeutral), témoignages signés, scientifiques ou guides nommés | — |
+| 8 | Profil du voyageur (bespoke) | portes d'entrée : famille, couple, aventure, culture | — |
+| 9 | Équipe / fondateurs | portraits, citation signée | — |
+| 10 | Demande | formulaire en cartes cliquables (saison, mois, intérêts) + promesse de réponse 24 h + téléphone | Envoyer ma demande |
+| 11 | Footer (affiliations, journal, presse) | | |
+
+**Parcours principal (conversationnel qualifié)** : Accueil → Voyage → Page itinéraire (jour par jour, prix, dates) → Demande pré-remplie (`?itinerary=`) ou appel planifié → Conseiller nommé → Devis → Acompte.
+**CTA** : Enquire / Start planning (plein, orange ou accent unique) sur toutes les pages ; jamais « Book ».
+**Preuves** : affiliations sectorielles, presse, distinctions, témoignages signés, chiffres de rareté, guides et scientifiques nommés, transparence tarifaire.
+**Contenus** : photos de territoire à plusieurs heures, humains en action, camps de nuit, cartes, vidéos de 10–15 s par territoire, portraits d'équipe, itinéraires jour par jour écrits.
+**Animation** : niveau **signature** justifié par le récit : séquence horizontale unique (camps → presse → carte animée), colonne contextuelle sticky sur l'itinéraire, titres display en bas de hero ; conserver le scroll natif et un « Passer » sur toute séquence longue.
+**Erreurs** : chat proactif + cookies + bulle qui couvrent 40 % du hero mobile (observé) ; formulaire sans humain nommé ni délai (Pelorus /enquire) ; vidéos 20–60 Mo servies en mobile ; contraste blanc/orange < 3:1 ; pas de reduced motion sur des séquences longues ; prix cachés (tout le secteur les affiche, il faut les afficher).
+
+---
+
+## K. Croisière, itinéraire daté, offre combinatoire (Explora Journeys)
+
+**Positionnement recommandé** : résoudre la combinatoire (destinations × dates × navires × suites × offres) par un outil simple et des cartes normalisées, en gardant un univers de marque (« ocean state of mind »). Références : widget à deux champs « Where to ? / When ? » + « View 658 journeys » dans le hero ; cartes de voyage complètes (ports, dates, navire, nuits, prix barré, prix par nuit, offre) ; encadré « All journeys include » répété ; tableau comparatif des catégories de suites avec surfaces ; pages saison comme argumentaires pré-filtrés avec date limite.
+
+**Sitemap** : Accueil · Trouver un voyage (résultats filtrables : région, saison, navire, durée, prix) · Page voyage (carte, ports, jour par jour, navire, suites disponibles, prix, inclusions, offres) · Destinations (régions + saisons + collections) · Navires / Suites (catégories, tableau comparatif, plans) · La vie à bord (table, wellness, expériences, excursions avec prix) · Offres (mécaniques datées) · À propos (philosophie, groupe, fondation, distinctions) · Agents de voyage · Mon compte (check-in, enregistrement) · Contact · Légal.
+
+**Page d'accueil**
+| # | Section | Contenu | CTA |
+|---|---|---|---|
+| 1 | Hero | vidéo + widget 2 champs + bouton avec le nombre de résultats | Voir les voyages |
+| 2 | Claim de marque | 1–2 phrases + fondu croisé d'accroches | — |
+| 3 | Voyages en vedette | 3–6 cartes normalisées avec prix « à partir de » et par nuit | Détails |
+| 4 | Destinations & saisons | régions + saisons + collections thématiques | Explorer |
+| 5 | Inclusions | encadré « tout est inclus » en 8–10 puces, honnête sur les exceptions | — |
+| 6 | Navires & suites | 4 catégories avec surfaces et un comparatif | Comparer |
+| 7 | La vie à bord | table, wellness, expériences | — |
+| 8 | Offres | 3 offres datées avec mécanique claire (réduction, acompte, date limite) | Voir les offres |
+| 9 | Preuve | distinctions, presse, ambassadeur | — |
+| 10 | Agents / compte / footer multi-marchés (sélecteur pays/langue) | | |
+
+**Parcours principal (transactionnel à étapes)** : Widget → Résultats (12 par page, filtres) → Voyage (dates, suite, prix) → Tunnel (suite → options → paiement ou devis agent). Voyage tarifé en ≤ 2 clics.
+**CTA** : Voir les voyages (hero) ; Détails (cartes) ; Réserver / Demander un devis (voyage) ; Réserver via un agent.
+**Preuves** : distinctions par année, presse, inclusions détaillées, chiffres (voyages, navires, restaurants), ambassadeur.
+**Contenus** : cartes et tracés par voyage, photos de suites par catégorie avec surfaces, vidéos courtes par univers (à bord, destinations), textes d'inclusions et d'exceptions.
+**Animation** : niveau **sobre** (l'outil prime) ; fondus courts, header qui se réduit au scroll (132 → 63 px observé), pas de séquence narrative.
+**Erreurs** : pages suites sans prix ni CTA (observé) ; vidéos master de 82 Mo rechargées (observé : 440 Mo sur une page) ; H1 absent, zoom bloqué, overlay d'accessibilité en substitut ; « Contact » qui renvoie à la home ; aucun avis client.
+
 ## Tableau récapitulatif
 
 | Modèle | Mode | Section 3 de la home | CTA principal | Niveau d'animation | Contenu critique |
@@ -234,3 +322,6 @@ Promesse (hero) → pourquoi ce lieu (manifeste) → offre concrète (hébergeme
 | Insolite | transactionnel simple | Hébergements | Réserver une nuit | sobre à mesuré | confort & accès honnêtes |
 | Wellness | hybride | Programmes | Trouver mon programme | mesuré à signature | praticiens, journée type |
 | Collection | recherche + demande | Sélection | Rechercher | sobre | fiches normalisées, conseiller |
+| Groupe / marque-communauté | transactionnel par lieu + adhésion | Les lieux | Choisir un lieu | mesuré à signature | manifeste, piliers, cartes de lieux normalisées, carte |
+| Expédition / sur mesure | conversationnel qualifié | Les voyages (prix) | Enquire / Start planning | signature narrative | itinéraires jour par jour, prix publics, comment ça marche |
+| Croisière / combinatoire | transactionnel à étapes | Voyages en vedette | Voir les voyages | sobre | widget 2 champs, cartes normalisées, inclusions, comparatif suites |
